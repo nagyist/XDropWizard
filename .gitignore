@@ -1,12 +1,29 @@
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+*.ips
+.idea/
+
+# Eclipse
+.settings/
+.metadata/
 .classpath
 .project
-.settings/
-.idea/
-*.iml
-*.iws
-.DS_Store
-log/
+
+# VS Code
+.vscode/
+
+# Generated
 target/
+javadoc/
+bin/
+log/
+dependency-reduced-pom.xml
+
+# Misc.
+.DS_Store
 
 
 #
@@ -38,4 +55,4 @@ src/main/resources/assets/bower_components/**/nuget
 src/main/resources/assets/bower_components/**/less
 src/main/resources/assets/bower_components/**/examples/*
 
-dependency-reduced-pom.xml
+
